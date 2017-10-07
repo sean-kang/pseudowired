@@ -1,8 +1,8 @@
 # pseudowired
 
-Source code of [pseudowired.com](https://pseudowired.com)
+Source code of [pseudowired.com](http://pseudowired.com) powered by [Hugo](http://gohugo.io).
 
-## License
+## Licenses
 
 * Copyright (c) 2017, Sean Kang.
-* Running on Minimo theme which is licensed under the [MIT License](https://github.com/MunifTanjim/minimo/blob/master/LICENSE).
+* [Minimo](https://github.com/MunifTanjim/minimo) theme is licensed under the [MIT License](https://github.com/MunifTanjim/minimo/blob/master/LICENSE).
