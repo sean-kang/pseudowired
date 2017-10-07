@@ -1,0 +1,74 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "pseudowired"
+theme = "minimo"
+paginate = 5
+preserveTaxonomyNames = true
+pygmentsCodefences = true
+
+# for smart copyright line, leave this blank and check [params.copyright]
+copyright = ""
+
+[params.info]
+  description = "Aren't we all wired one way or another?"
+  title404 = "Nothing's here!"
+
+[params.assets]
+  favicon = "favicon.ico"
+  customCSS = ["css/custom.css"]
+  customJS = ["js/custom.js"]
+  gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+
+[params.copyright]
+  prefix = ""
+  holder = "Sean Kang"
+  startYear = "2017"
+  suffix = ""
+
+[params.settings]
+  # date & time format: https://golang.org/pkg/time/
+  dateFormat = "02 Jan 2006"
+  listDateFormat = "02 Jan 2006"
+  hideEntryNavigation = false
+  hideSocialMenu = false
+  showReadingTime = true
+
+[params.seo]
+  # Title Separator: - – — · • * ⋆ | ~ « » < >
+  titleSeparator = "•"
+
+[params.social]
+  github = "sean-kang"
+  twitter = "sean_kang"
+
+[params.social.config]
+  platforms = ["github","twitter"]
+
+[taxonomies]
+  author = "authors"
+  category = "categories"
+  tag = "tags"
+
+[permalinks]
+  page = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  weight = -100
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Category"
+  weight = -90
+  identifier = "category"
+  url = "/categories"
+
+[[menu.main]]
+  name = "Tags"
+  weight = -80
+  identifier = "tag"
+  url = "/tags"
+
+[blackfriday]
+  hrefTargetBlank = true
