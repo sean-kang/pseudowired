@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on pseudowired</title>
-    <link>http://example.org/categories/</link>
+    <link>http://pseudowired.com/categories/</link>
     <description>Recent content in Categories on pseudowired</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://pseudowired.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Devops</title>
-      <link>http://example.org/categories/devops/</link>
+      <link>http://pseudowired.com/categories/devops/</link>
       <pubDate>Sat, 07 Oct 2017 13:03:00 +1300</pubDate>
       
-      <guid>http://example.org/categories/devops/</guid>
+      <guid>http://pseudowired.com/categories/devops/</guid>
       <description></description>
     </item>
     
